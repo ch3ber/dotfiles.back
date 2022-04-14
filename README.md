@@ -22,10 +22,10 @@
 
 ## Screenshots
 
-[![dotfiles config Screen Screenshot][product-screenshot]](./images/view.png)
-[![dotfiles config Screen Screenshot][product-screenshot]](./images/windows.png)
-[![dotfiles config Screen Screenshot][product-screenshot]](./images/nvim.png)
-[![dotfiles config Screen Screenshot][product-screenshot]](./images/nvim-telescope.png)
+![dotfiles config Screen Screenshot](./images/view.png)
+![dotfiles config Screen Screenshot](./images/windows.png)
+![dotfiles config Screen Screenshot](./images/nvim.png)
+![dotfiles config Screen Screenshot](./images/nvim-telescope.png)
 
 ## Getting Started
 
