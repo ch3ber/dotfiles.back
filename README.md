@@ -1,5 +1,5 @@
 <div id="top"></div>
-[![MIT License][license-shield]][license-url]
+[![MIT License][license-shield]][https://github.com/ch3ber/dotfiles/blob/main/LICENSE]
 
 <br />
 <div align="center">
