@@ -45,7 +45,9 @@ user-dirs.dirs
 user-dirs.locale
 vlc
 yay
-
+GIMP
+gtk-2.0
+obs-studio
 
 # ----- nvim
 plugged
