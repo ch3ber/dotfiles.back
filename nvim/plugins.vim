@@ -18,6 +18,7 @@ Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'                                 "auto completion for code
 Plug 'sheerun/vim-polyglot'                             "resaltado de syntax
+Plug 'styled-components/vim-styled-components'          "styled-components highlight support
 Plug 'norcalli/nvim-colorizer.lua'                      "ver colores hexadecimales
 Plug 'tpope/vim-surround'                               "cambiar parentesis correspondientes
 Plug 'preservim/nerdcommenter'                          "comentar codigo
