@@ -12,22 +12,14 @@ Plug 'nvim-lualine/lualine.nvim'                        "status line
 Plug 'akinsho/nvim-bufferline.lua'                      "buffer tabline
 
 "=== CODE SUPPORT ===
-Plug 'hrsh7th/cmp-nvim-lsp'                             "auto completion for code
-Plug 'hrsh7th/cmp-buffer'
-Plug 'hrsh7th/cmp-path'
-Plug 'hrsh7th/cmp-cmdline'
-Plug 'hrsh7th/nvim-cmp'                                 "auto completion for code
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sheerun/vim-polyglot'                             "resaltado de syntax
-Plug 'styled-components/vim-styled-components'          "styled-components highlight support
 Plug 'norcalli/nvim-colorizer.lua'                      "ver colores hexadecimales
 Plug 'tpope/vim-surround'                               "cambiar parentesis correspondientes
 Plug 'preservim/nerdcommenter'                          "comentar codigo
 Plug 'Yggdroot/indentLine'                              "ver identacion de lineas
 
 "=== SNIPPETS ===
-Plug 'L3MON4D3/LuaSnip'                                 "snippets support
-Plug 'saadparwaiz1/cmp_luasnip'                         "cmp compatibiliti
-Plug 'rafamadriz/friendly-snippets'                     "snippets
 Plug 'onsails/lspkind-nvim'                             "auto complete iconos
 
 "=== NVIM IMPROVEMENTS ===
