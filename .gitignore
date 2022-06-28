@@ -51,6 +51,8 @@ obs-studio
 
 # ----- nvim
 plugged
+pack
+TabNine
 
 # ----- alacritty
 night
