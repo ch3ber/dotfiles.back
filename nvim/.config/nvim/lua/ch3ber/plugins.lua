@@ -45,34 +45,31 @@ return packer.startup(function(use)
   -- | LSP |
   -- +-----+
 
-  use "neovim/nvim-lspconfig" -- enable LSP
-  use "williamboman/nvim-lsp-installer" -- simple to use language server installer
+  use "neovim/nvim-lspconfig"                         -- enable LSP
+  use "williamboman/nvim-lsp-installer"               -- Simple to use language server installer
 
   -- +------------+
   -- | CUSTOM VIM |
   -- +------------+
 
   use "lunarvim/colorschemes"                         -- A bunch of colorschemes
-  use "drewtempelmeyer/palenight.vim"                 -- colorscheme
-  use "folke/tokyonight.nvim"                         -- colorscheme
-  use {'kaicataldo/material.vim', branch = 'main' }   -- colorscheme
-  use "nvim-lualine/lualine.nvim"                     -- status line
-  use "akinsho/nvim-bufferline.lua"                   -- buffer line
+  use "drewtempelmeyer/palenight.vim"                 -- Colorscheme
+  use "folke/tokyonight.nvim"                         -- Colorscheme
+  use {'kaicataldo/material.vim', branch = 'main' }   -- Colorscheme
+  use "nvim-lualine/lualine.nvim"                     -- Status line
+  use "akinsho/nvim-bufferline.lua"                   -- Buffer line
 
   -- +--------------+
   -- | CODE SUPPORT |
   -- +--------------+
 
   use {'neoclide/coc.nvim', branch = 'release'}  -- Auto completion for code
-  use "norcalli/nvim-colorizer.lua"              -- ver colores hexadecimales
-  use "tpope/vim-surround"                       -- cambiar parentesis correspondientes
-  use "Yggdroot/indentLine"                      -- ver identacion de lineas
-
-  -- +----------+
-  -- | SNIPPETS |
-  -- +----------+
-
-  use "onsails/lspkind-nvim"                     -- Auto complete iconos
+  use "norcalli/nvim-colorizer.lua"              -- Ver colores hexadecimales
+  use "tpope/vim-surround"                       -- Cambiar parentesis correspondientes
+  use "Yggdroot/indentLine"                      -- Show indentation with a line
+  use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' } -- Code highlight
+  use "numToStr/Comment.nvim"                       -- Easily comment stuff
+  use 'JoosepAlviste/nvim-ts-context-commentstring' -- Comment JSX code
 
   -- +-------------------+
   -- | NVIM IMPROVEMENTS |
@@ -82,7 +79,7 @@ return packer.startup(function(use)
   use "nvim-lua/popup.nvim"                      -- Telescope, multi herramienta de busqueda
   use "nvim-lua/plenary.nvim"                    -- Telescope, multi herramienta de busqueda
   use "nvim-telescope/telescope.nvim"            -- Telescope, multi herramienta de busqueda
-  use "kyazdani42/nvim-web-devicons"             -- Iconos para telescope
+  use "kyazdani42/nvim-web-devicons"             -- Icons used by many plugins
   use "tpope/vim-fugitive"                       -- Integracion con git
   use "mhinz/vim-signify"                        -- Show git diff in nvim
   use {
@@ -92,14 +89,6 @@ return packer.startup(function(use)
     },
     tag = 'nightly' -- optional, updated every week. (see issue #1193)
   } -- File explorer
-  use "numToStr/Comment.nvim"                       -- Easily comment stuff
-  use 'JoosepAlviste/nvim-ts-context-commentstring' --Comment JSX code
-
-  -- Treesitter
-  use {
-    'nvim-treesitter/nvim-treesitter',
-    run = ':TSUpdate'
-  }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
