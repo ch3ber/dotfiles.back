@@ -97,8 +97,8 @@ return packer.startup(function(use)
 
   -- Treesitter
   use {
-      'nvim-treesitter/nvim-treesitter',
-      run = ':TSUpdate'
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate'
   }
 
   -- Automatically set up your configuration after cloning packer.nvim
